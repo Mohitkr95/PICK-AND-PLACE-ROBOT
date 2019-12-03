@@ -10,3 +10,8 @@ It can be converted into a pick and place robot easily by just attaching the rob
 USE FOR PHYSICALLY DISABLED PEOPLE-
 This robot will ease the work of many physically challenged people as if this robot is made on a large scale then physically disabled people will easily pick up the things which they use in their daily life.
 If by removing the carrier tray we fix the robotic arm then the robot will be ready for its another application that is pic and place which can be used to pick the small things.
+
+# USE FOR PHYSICALLY DISABLED PEOPLE
+
+This robot will ease the work of many physically challenged people as if this robot is made on a large scale then physically disabled people will easily pick up the things which they use in their daily life.
+If by removing the carrier tray we fix the robotic arm then the robot will be ready for its another application that is pic and place which can be used to pick the small things.
