@@ -18,3 +18,14 @@ If by removing the carrier tray we fix the robotic arm then the robot will be re
 
 This robot will ease the work of many physically challenged people as if this robot is made on a large scale then physically disabled people will easily pick up the things which they use in their daily life.
 If by removing the carrier tray we fix the robotic arm then the robot will be ready for its another application that is pic and place which can be used to pick the small things.
+
+
+# CIRCUIT DIAGRAM EXPLAINATION
+
+![image](https://user-images.githubusercontent.com/37563886/70070671-ff36db00-1619-11ea-9687-b2a433dc9f7d.png)
+
+AVR micro controller consist of 32 GPIO’s and it is 8 bit architecture consist of 4 Port registers named PORTA, PORTB, PORTC, PORTD.
+And to make any of the pin output from any PORT we have to program their respective data registers named as DDRA, DDRB, DDRC, DDRD . 
+In this robot on PORTA all the 4 motor are placed by attaching motor drivers (L293D) between pins and motors which will ensure the movement of the robot.
+0th and 1st pin of PORTD are made output for the reception and transmission of the commands through Bluetooth and in the schematic diagram instead of Bluetooth we have used the virtual terminal which will do the same work.
+And if want to attach robotic arm also then for we have generated PWM on the 5th pin of PORTD by using TIMER1 of the controller which is 18 bit timer and can accept the maximum value of 65535.
