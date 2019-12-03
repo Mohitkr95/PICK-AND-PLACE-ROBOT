@@ -29,3 +29,22 @@ And to make any of the pin output from any PORT we have to program their respect
 In this robot on PORTA all the 4 motor are placed by attaching motor drivers (L293D) between pins and motors which will ensure the movement of the robot.
 0th and 1st pin of PORTD are made output for the reception and transmission of the commands through Bluetooth and in the schematic diagram instead of Bluetooth we have used the virtual terminal which will do the same work.
 And if want to attach robotic arm also then for we have generated PWM on the 5th pin of PORTD by using TIMER1 of the controller which is 18 bit timer and can accept the maximum value of 65535.
+
+# COMPONENTS OF THE ROBOT
+
+**If we want to use wi-fi instead of Bluetooth for giving command from the mobile then we can use server of www.thingspeak.com which is providing free server channels to the people. 
+
+This robot consist these components as its parts-
+1.	4 DC motor (100 rpm).
+2.	1 12V DC battery.
+3.	1 AVR Atmega 32 development board.
+4.	Atmega 32 controller IC.
+5.	Chassis.
+6.	1 servo motor and 1 DC motor of 60rpm to be used for pick and place robot).
+a.	Robotic arm-gripper.
+7.	4 tyres.
+8.	Bluetooth (HC-05 or HC-06)
+9.	Wi-fi module ESP8266 (for larger range)
+10.	Motor driver (L293D)
+
+**And the app we will use is named BLUETOOTH CONTROLLER in which we can set the keys in whatever way we want and it is easily available on Play Store.
