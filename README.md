@@ -1,5 +1,5 @@
 # ANDROID CONTROLLED PICK & PLACE ROBOT 
-# (HELPING HAND)
+# (A HELPING HAND)
 Things carries Android controlled robot can be used to pass on the things to one another easily by using our android mobile. This robot can be used in schools or places where lots of physically disabled people study or work.
 
 ![image](https://user-images.githubusercontent.com/37563886/70070156-20e39280-1619-11ea-8a0a-1f1e14470c9d.png)
