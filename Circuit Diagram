@@ -1,8 +1,9 @@
 #DIAGRAM
 
-![image](https://user-images.githubusercontent.com/37563886/70069670-268ca880-1618-11ea-8bd3-9092ea8df64e.png)
+![image](https://user-images.githubusercontent.com/37563886/70069881-8c793000-1618-11ea-8c5a-b09594ad8a34.png)
  
-EXPLANATION OF THE DIAGRAM AND ITS ALL THE PINOUTS-
+#EXPLANATION OF THE DIAGRAM AND ITS ALL THE PINOUTS
+
 AVR micro controller consist of 32 GPIO’s and it is 8 bit architecture consist of 4 Port registers named PORTA, PORTB, PORTC, PORTD.
 And to make any of the pin output from any PORT we have to program their respective data registers named as DDRA, DDRB, DDRC, DDRD . 
 In this robot on PORTA all the 4 motor are placed by attaching motor drivers (L293D) between pins and motors which will ensure the movement of the robot.
