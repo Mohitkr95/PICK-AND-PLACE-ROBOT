@@ -1,4 +1,6 @@
- ![CIRCUIT DIAGRAM](https://drive.google.com/file/d/1j5MXTx06JK8d2kf4TOPMAnJQMdQBy2p0/view?usp=sharing)
+#DIAGRAM
+
+![image](https://user-images.githubusercontent.com/37563886/70069670-268ca880-1618-11ea-8bd3-9092ea8df64e.png)
  
 EXPLANATION OF THE DIAGRAM AND ITS ALL THE PINOUTS-
 AVR micro controller consist of 32 GPIO’s and it is 8 bit architecture consist of 4 Port registers named PORTA, PORTB, PORTC, PORTD.
