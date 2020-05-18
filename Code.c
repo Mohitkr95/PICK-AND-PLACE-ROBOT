@@ -82,7 +82,7 @@ ISR(USART_RXC_vect)
 		{
 			move_servo(0);
 		}
-}*/   (if u want to make its pick and place robot i.e. for its arm controlling one servo motor is                 used for its claw and 1 DC motor of 60rpm is used for its movement.)
+}*/   (if u want to make its pick and place robot i.e. for its arm controlling one servo motor is used for its claw and 1 DC motor of 60rpm is used for its movement.)
 int main(void)
 {
 	DDRA=0xFF;
